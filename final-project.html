@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+    <title>Final Project - COMP2132</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1 id="finalResult">Dice Game</h1>
+
+      <div class="container">
+        <div class="dice">
+          <p id="userName"></p>
+          <img id="die1" class="die" src="">
+          <img id="die2" class="die" src="">
+        </div>
+        
+        <div class="dice">
+          <p id="cpu">CPU</p>
+          <img id="die3" class="die" src="">
+          <img id="die4" class="die" src="">
+        </div>
+        
+        <button type="button" class="myBtn" onclick="rollDices()">Roll Dices</button>
+
+        <button type="button" id="resetBtn" class="myBtn" onclick="restartGame()">Reset Game</button>
+      </div>
+    </div>
+
+    <footer>🎲 COMP2132 🎲</footer>
+  </body>
+</html>
