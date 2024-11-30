@@ -1,21 +1,10 @@
-// SASS variable
-$border-radius: 20px;
-$font-family: 'Lobster', cursive;
-
-// SCSS Mixin for border-radius
-@mixin border-radius($radius) 
-{
-  border-radius: $radius;
-}
-
-body
-{
+body {
   background-color: #125a68;
 }
 
 h1 {
   margin: 30px;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   text-shadow: 5px 0 #232931;
   font-size: 4rem;
   color: yellow;
@@ -28,7 +17,7 @@ p {
   font-size: 2rem;
   color: whitesmoke;
   font-weight: bold;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   grid-column: span 2;
   text-align: center;
 }
@@ -40,11 +29,11 @@ img {
 footer {
   color: white;
   text-align: center;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   font-size: 2rem;
-
 }
-.die{
+
+.die {
   opacity: 0;
 }
 
@@ -57,21 +46,21 @@ footer {
   align-items: center;
 }
 
-.myBtn{
+.myBtn {
   border: 2px solid yellow;
   background-color: black;
   color: yellow;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   padding: 5px;
   font-size: 1rem;
   grid-column: span 2;
   border-radius: 20px;
-  @include border-radius($border-radius);  // Using the mixin
+  border-radius: 20px;
   height: 50px;
   cursor: pointer;
 }
 
-.dice{
+.dice {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -79,10 +68,12 @@ footer {
   align-items: center;
 }
 
-#wrapper{
+#wrapper {
   max-width: 1020px;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+/*# sourceMappingURL=styles.css.map */
